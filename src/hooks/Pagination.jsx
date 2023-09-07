@@ -1,11 +1,7 @@
-import React, {useEffect, useState} from 'react';
-import st from "../components/Main/Blog/blog.module.css";
+import React from 'react';
 import {ReactComponent as Left} from "../assets/img/left.svg";
 import {ReactComponent as Right} from "../assets/img/right.svg";
 import ReactPaginate from "react-paginate";
-import mockBlogDate from "../assets/mock/mockBlogDate";
-
-
 
 const Pagination = ({ pageCount, handlePageClick}) => {
     //** https://www.npmjs.com/package/react-paginate (в ссылке глюл, перейте куда-то и вернуться назад)
@@ -22,8 +18,8 @@ const Pagination = ({ pageCount, handlePageClick}) => {
                 nextClassName="pagination_page_next"
                 previousClassName="pagination_page_previous"
                  onPageChange={handlePageClick}
-                nextLabel=<Right/>
-                previousLabel=<Left/>
+                nextLabel={<Right/>}
+                previousLabel={<Left/>}
                 pageRangeDisplayed={3}
                 marginPagesDisplayed={3}
                 forcePage={0}
