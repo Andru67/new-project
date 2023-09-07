@@ -1,0 +1,27 @@
+form:active{
+    color: red;
+    background: #FFFFFF;
+}
+
+.lang{
+    display: flex;
+   margin-right: 3%;
+   /*margin-right: 53px;*/
+    gap: 6px;
+
+    font-family: 'Gilroy-Bold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: right;
+   /* text-transform: uppercase;*/
+    color: #929292;
+    cursor: pointer;
+
+}
+.active{
+    color: #FCD54C;
+    cursor: default;
+
+}

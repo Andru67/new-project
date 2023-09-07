@@ -1,0 +1,163 @@
+.text_blog {
+    margin-left: 0;
+
+
+    font-family: Gilroy-Bold;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 80px;
+    color: #FFFFFF;
+}
+
+.title_blog {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 103px;
+    margin-bottom: 73px;
+}
+
+.search {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 813px;
+    height: 74px;
+    margin-right: 0px;
+    background: black;
+    padding: 24px 460px 24px 19px;
+    border: 1px solid #929292;
+    color: #FFFFFF;
+}
+
+.form {
+    position: relative;
+    width: 813px;
+}
+
+.submit {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    margin-left: 760px;
+    margin-top: 24px;
+    /*background: black;*/
+    opacity: 110;
+    /*color: #929292;*/
+}
+
+.input[type="text"] {
+    height: 2225px;
+}
+
+.continer {
+    display: grid;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+
+
+}
+
+.grid_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+     /*grid-template-rows: 1fr 1fr 1fr 1fr;*/
+    gap: 15px;
+
+
+    /*max-height: 1850px;
+    overflow: hidden;*/
+
+}
+
+.box {
+    box-sizing: border-box;
+    padding: 15px 40px 8px 38px;
+    border: 1px solid #FCD54C;
+
+}
+
+.span {
+    color: #FFF;
+    font-family: Gilroy;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.p2 {
+    /*color: #929292;*/
+    font-family: Gilroy;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    /* показывает 3 строчки */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+
+}
+.btn {
+    margin-top: 101px;
+}
+
+.a2 {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0px; /* 150% */
+    background-color: black;
+    text-decoration: none;
+    width: 68px;
+    height: 25px;
+    justify-content: center;
+
+
+
+    cursor: pointer;
+}
+
+img {
+    width: 260px;
+    height: 280px;
+}
+
+.pagination {
+
+    margin: auto;
+
+}
+
+.pagination_ul {
+    display: inline-flex;
+    height: 24px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 11px;
+    flex-shrink: 0;
+    margin-top: 30px;
+}
+
+.pagination_li {
+    font-size: 12px;
+    cursor: pointer;
+    color: #FFFFFF;
+    height: 20px;
+    width: 20px;
+    padding-left: 7px;
+}
+
+
+.flex_item {
+}

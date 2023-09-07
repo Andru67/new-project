@@ -1,0 +1,47 @@
+.nav{
+    display: flex;
+    color: #FFFFFF;
+    gap: 30px;
+    height: 19px;
+    margin-top: 6px;
+    margin-left: 90px;
+   /* margin-left: 18%;*/
+
+
+    font-family: 'Gilroy-Bold';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+}
+.link{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.nav_button{
+
+    color: #FCD54C;
+    border-bottom: solid 2px;
+
+
+}
+.nav_buy_button{
+    position: revert;
+    margin-left: 5px;
+    background-color: black;
+
+}
+
+.dropdown{
+    position: absolute;
+    display: none;
+    margin-top: 0px;
+    width: 20px;
+
+}
+
+.nav_buy_button:hover .dropdown {
+    display: block;
+}

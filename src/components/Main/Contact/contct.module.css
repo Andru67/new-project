@@ -1,0 +1,147 @@
+.contact {
+    margin: 155px 0;
+}
+
+.text {
+    width: 228px;
+    height: 75px;
+    margin-left: 280px;
+    margin-bottom: 90px;
+    top: 0px;
+
+    font-family: 'Gilroy-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 75px;
+    /* identical to box height, or 125% */
+
+
+    color: #FFFFFF;
+}
+
+.block {
+    margin-left: 280px;
+    margin-top: 211px;
+}
+
+.touch {
+    width: 600px;
+    height: 80px;
+    margin-bottom: 70px;
+
+    font-family: 'Gilroy-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 35px;
+    /* or 109% */
+
+
+    color: #FCD54C;
+
+}
+
+.color {
+    color: #FFFFFF;
+}
+
+.massage {
+    width: 780px;
+    height: 218px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    border: 1px solid #C9C9C9;
+    background: black;
+    padding: 20px;
+    color: #FFFFFF;
+}
+
+.input_line {
+    margin-right: 30px;
+    margin-bottom: 30px;
+    width: 240px;
+    height: 50px;
+    padding: 20px;
+
+    box-sizing: border-box;
+    border: 1px solid #C9C9C9;
+    background: black;
+    color: #FFFFFF;
+}
+
+.submit {
+    width: 150px;
+    height: 50px;
+    padding: 13px 40px;
+    background: #FCD54C;
+    color: black;
+
+}
+
+.map {
+    position: relative;
+    width: 1350px;
+    height: 576px;
+    background: url("../../../assets/img/map.svg") no-repeat;
+
+}
+
+.card_contact {
+    position: absolute;
+    width: 400px;
+    height: 456px;
+    margin-left: 280px;
+    margin-top: 60px;
+    padding-left: 40px;
+    padding-top: 50px;
+    margin-bottom: auto;
+    background: black;
+
+}
+
+.card_contact_h1 {
+    font-family: Gilroy-Bold;
+    font-weight: normal;
+    font-size: 30px;
+    color: #FFFFFF;
+    margin-bottom:25px;
+}
+.card_contact_h1_color{
+    color: #FCD54C;
+}
+
+.card_contact_adres {
+    font-size: 14px;
+    margin-bottom: 46px;
+}
+
+.card_contact_phone{
+    font-family: Gilroy-Bold;
+    font-weight: normal;
+    font-size: 30px;
+    color: #FFFFFF;
+
+    margin-bottom: 70px;
+
+}
+.card_contact_email{
+    margin-bottom: 23px;
+    font-size: 14px;
+
+}
+
+.card_contact_list_color{
+    margin-bottom: 23px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.card_contact_follow{
+    margin-bottom: 23px;
+    font-size: 14px;
+}
+.card_contact_work{
+    margin-bottom: 23px;
+    font-size: 14px;
+}
+
