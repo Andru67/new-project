@@ -25,7 +25,7 @@
 .mailto{
     text-decoration: none;
 
-    font-family: 'Gilroy-Medium';
+    font-family: 'Gilroy', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -39,7 +39,7 @@
 .contact_text{
     margin-bottom: 23px;
 
-    font-family: 'Work Sans';
+    font-family: 'Work Sans', sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 18px;
@@ -54,7 +54,7 @@
 .footer_text{
     display: flex;
     justify-content: space-between;
-    font-family: 'Lexend';
+    font-family: 'Lexend', sans-serif;
     font-style: normal;
     font-weight: 300;
 

@@ -9,7 +9,7 @@ form:active{
    /*margin-right: 53px;*/
     gap: 6px;
 
-    font-family: 'Gilroy-Bold';
+    font-family: 'Gilroy', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 14px;

@@ -2,7 +2,7 @@
     margin-left: 0;
 
 
-    font-family: Gilroy-Bold;
+    font-family : 'Gilroy', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 60px;
@@ -83,7 +83,7 @@
 
 .span {
     color: #FFF;
-    font-family: Gilroy;
+    font-family: 'Gilroy', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -92,7 +92,7 @@
 
 .p2 {
     /*color: #929292;*/
-    font-family: Gilroy;
+    font-family: 'Gilroy', sans-serif;
     font-size: 10px;
     font-style: normal;
     font-weight: 400;
@@ -114,7 +114,7 @@
 
 .a2 {
     color: #FFF;
-    font-family: Work Sans;
+    font-family: Work Sans, sans-serif;
     font-size: 12px;
     font-style: normal;
     font-weight: 600;
@@ -158,5 +158,11 @@ img {
 }
 
 
-.flex_item {
+.blog_wrep {
+    display: grid;
+    gap: 24px;
+    grid-template-columns: auto 1fr min-content;
+    margin-bottom: 24px;
+
+
 }

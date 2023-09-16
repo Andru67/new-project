@@ -13,7 +13,7 @@
     margin-left: 15px;
 
 
-    font-family: 'Gilroy-Bold';
+    font-family: 'Gilroy', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 28px;
@@ -52,7 +52,7 @@
 .phone{
     display: flex;
 
-    font-family: 'Gilroy-Bold';
+    font-family: 'Gilroy', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;

@@ -13,20 +13,20 @@ const LearnMor = () => {
     console.log(blog)
 
     return (
-        <div className={st.continer}>
-            222
 
+        <div className={st.blog_wrep}>
 
             <img src={blog.img}/>
 
-            <div className={st.box}>
+            <div>
 
                 <span className={st.span}>{blog.title}</span>
 
                 <p className={st.p2}>{blog.description}</p>
 
-                <span>Back  &nbsp;   <Sing/></span>
+                <Link to={'/blog'} className={st.a2}>Back to blog</Link>
             </div>
+            <div>43333333</div>
 
         </div>
     )

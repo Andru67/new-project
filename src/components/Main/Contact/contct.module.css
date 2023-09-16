@@ -9,7 +9,7 @@
     margin-bottom: 90px;
     top: 0px;
 
-    font-family: 'Gilroy-Bold';
+    font-family: 'Gilroy', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 60px;
@@ -101,7 +101,7 @@
 }
 
 .card_contact_h1 {
-    font-family: Gilroy-Bold;
+    font-family: 'Gilroy', sans-serif;
     font-weight: normal;
     font-size: 30px;
     color: #FFFFFF;
@@ -117,7 +117,7 @@
 }
 
 .card_contact_phone{
-    font-family: Gilroy-Bold;
+    font-family: 'Gilroy', sans-serif;
     font-weight: normal;
     font-size: 30px;
     color: #FFFFFF;
