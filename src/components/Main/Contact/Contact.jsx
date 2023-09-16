@@ -10,7 +10,7 @@ const Contact = () => {
             <Map/>
             <div className={st.block}>
                 <div className={st.touch}>
-                    <p>Bi in tuch</p>
+                    <p>Be in touch</p>
                     <p className={st.color}>with as</p>
                 </div>
                 <div>

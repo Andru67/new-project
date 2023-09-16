@@ -1,31 +1,35 @@
 import React, {useState} from 'react';
 import st from './blog.module.css';
 import picture from './../../../assets/img/shutterstock_40238476 1.png'
-import {NavLink} from "react-router-dom";
+import {Link, useNavigate} from "react-router-dom";
 import {ReactComponent as Sing} from "./../../../assets/img/Arrow.svg";
 import Pagination from "./../../../hooks/Pagination";
+import cn from "classnames";
 
-const Blogs = () => {
+const card = (id) => {
+    return {
+        id: id,
+        img: picture,
+        title: `Commercial proper in Abu Dhabi ${id}`,
+        /*description: qwe,*/
+        description: 'In Dubai, the final statistics of all transactions related to real estate for the first quarter has been confirmed In Dubai, the final statistics of all transactions related to real estate for the first quarter has been confirmed In Dubai, the final statistics of all transactions related to real estate for the first quarter has been confirmed In Dubai, the final statistics of all transactions related to real estate for the first quarter has been confirmed In Dubai, the final statistics of all transactions related to real estate for the first quarter has been confirmed In Dubai, the final statistics of all transactions related to real estate for the first quarter has been confirmed...',
+        text: <Link to={`/blog/${id}`} className={st.a2}>learn more<Sing/></Link>,
+    }
+}
+
+export const mockBlogsData = {
+    blogs: Array(1144).fill(null).map((i, index) => card(index))
+}
+
+const Blogs = (props) => {
+
+
 
     const imr = 'https://w.forfun.com/fetch/94/94c56e15f13f1de4740a76742b0b594f.jpeg'
-    const rty = picture
 
-    const card =(id) =>  {
-        return {
-            id: id,
-            img: picture,
-            title: `Commercial proper in Abu Dhabi ${id}`,
-            /*description: qwe,*/
-            description: 'In Dubai, the final statistics of all transactions related to real estate for the first quarter has been confirmed In Dubai, the final statistics of all transactions related to real estate for the first quarter has been confirmed...',
-            text: <NavLink to='#' className={st.a2}>learn more  &nbsp;   <Sing /></NavLink>,
-        }
-    }
 
     const cardsPerPage = 12;    // количество карточек которое будет показано
 
-    const mockBlogsData =  {
-        blogs: Array(1144).fill(null).map((i,index) => card(index))
-    }
     const pageCount = Math.ceil(mockBlogsData.blogs.length / cardsPerPage)  //**
     const [itemOffset, setItemOffset] = useState(0);
 
@@ -38,27 +42,29 @@ const Blogs = () => {
 
     //const start = itemOffset;
     const end = itemOffset + cardsPerPage;
-     const asd = mockBlogsData.blogs.slice(itemOffset, end)    // массив карточек которые будут показаны
+    const asd = mockBlogsData.blogs.slice(itemOffset, end)    // массив карточек которые будут показаны
 
     return (
         <div>
-        <div className={st.grid_container}>
-            {
-                asd.map( b => <div key={b.id}>
+            <div className={st.grid_container}>
+                {
+                    asd.map(b => <div key={b.id}>
 
-                        <img src={b.img}/>
-                        <div className={st.box}>
-                            <span className={st.span}>{b.title}</span>
-                            <p className={st.p2}>
-                                {b.description}
-                            </p>
-                            <span  id='btn'>{b.text}</span>
+                            <img src={b.img}/>
+                            <div className={st.box}>
+                                <span className={st.span}>{b.title}</span>
+                                <p className={cn(st.p2, st.short)}>
+                                    {b.description}
+                                </p>
+                                <span  >
+                                    {b.text}
+                                </span>
+                            </div>
                         </div>
-                    </div>
-                )
-            }
+                    )
+                }
 
-        </div>
+            </div>
             <div className={st.continer}>
                 <div className={st.pagination}>
                     <Pagination

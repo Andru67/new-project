@@ -6,8 +6,6 @@ import Dropdown from "../Dropdown/Dropdown";
 
 const Navbar = () => {
 
-
-
     return (
         <div className={st.nav}>
             <div className={st.nav_button}>
