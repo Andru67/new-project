@@ -50,15 +50,11 @@
     height: 2225px;
 }
 
-.continer {
+.container {
     display: grid;
     width: 800px;
     margin-left: auto;
     margin-right: auto;
-
-
-
-
 }
 
 .grid_container {
@@ -161,8 +157,8 @@ img {
 .blog_wrep {
     display: grid;
     gap: 24px;
-    grid-template-columns: auto 1fr min-content;
+    grid-template-columns: auto 1fr;
     margin-bottom: 24px;
-
-
+    max-width: 800px;
+    margin-inline: auto;
 }

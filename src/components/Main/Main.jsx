@@ -5,6 +5,7 @@ import {Route, Routes, useParams} from "react-router-dom";
 import Blog from "./Blog/Blog";
 import About from "./About/About";
 import LearnMor from "./Blog/LearnMor";
+import ApartmentsInDubai from "./ApartmentsInDubai/ApartmentsInDubai";
 
 
 const Main = () => {
@@ -17,6 +18,8 @@ const Main = () => {
                 <Route path='/about' element={<About/>}/>
                 <Route path='/contact' element={<Contact/>}/>
                 <Route path='/blog/:id' element={<LearnMor/>}/>
+                <Route path='/apartments-in-dubai' element={<ApartmentsInDubai/>}/>
+
             </Routes>
 
         </div>

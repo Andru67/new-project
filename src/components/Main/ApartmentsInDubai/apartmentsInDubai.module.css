@@ -1,0 +1,90 @@
+.breadcrumbs {
+    margin-bottom: 20px;
+}
+
+.picture {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    padding-bottom: 100px;
+    height: 700px;
+    background: url(../../../assets/img/slider1.png) no-repeat center;
+    /*наложение допщлнительного цвета на картинку*/
+    background-blend-mode: overlay;
+    background-color: rgba(39, 39, 39, 0.5);
+    background-size: cover;
+
+}
+
+.picture_text {
+    width: 660px;
+    height: 133px;
+    text-align: center;
+    font-family: 'Gilroy', sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px;
+    color: #FFF;
+
+}
+
+
+.picture_text_colored {
+    color: #FCD54C;
+
+
+}
+
+/*  Pagination  */
+.AID_pagination {
+    display: flex;
+    justify-content: center;
+
+    /*width: min-content;
+    margin: auto;*/
+
+}
+
+/*.AID_pagination :global(.pagination_active a) {
+    background-color: red;
+}*/
+
+/*  Information  */
+
+.infopmation {
+    width: 750px;
+    margin: 100px auto;
+
+
+}
+
+.text_h1 {
+    color: #FFF;
+    font-family: Gilroy, sans-serif;
+    margin-bottom: 40px;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px; /* 58.333% */
+}
+
+.text_h3 {
+    color: #FFF;
+    font-family: Gilroy, sans-serif;
+    margin-bottom: 40px;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; /* 104% */
+}
+
+.text_p {
+    margin-bottom: 60px;
+    font-family: Work Sans, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+

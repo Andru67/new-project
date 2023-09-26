@@ -27,7 +27,7 @@ const Blog = () => {
                 </div>
 
             </div>
-            <div className={st.continer}>
+            <div className={st.container}>
                 <ul >                           {/*<ul className={st.grid_container}>*/}
 
                    {/* <li><LearnMor /></li>*/}

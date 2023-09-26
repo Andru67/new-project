@@ -4,7 +4,9 @@ import st from './slider.module.css'
 const Slider = () => {
     return (
         <div className={st.slider}>
-            222
+           <div>
+               222
+           </div>
         </div>
     );
 };

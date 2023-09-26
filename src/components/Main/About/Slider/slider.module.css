@@ -1,8 +1,13 @@
-.slider{
+.slider {
 
-   padding-top: 700px;
-
+    height: 700px;
     background: url(../../../../assets/img/slider1.png) no-repeat center;
-    /*background-size: cover;*/
-    /*background-blend-mode: overlay, normal;*/
+    background-size: cover;
+
+   /*
+    !*наложение допщлнительного цвета на картинку*!
+    background-blend-mode: overlay;
+    background-color: rgba(39, 39, 39, 0.5);
+    */
+
 }

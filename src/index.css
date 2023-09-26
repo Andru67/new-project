@@ -64,6 +64,7 @@ header{
   /*   PAGINATION   */
 .pagination_container {
     display: flex;
+   /* justify-content: center;*/
     text-decoration: black;
     gap: 0px;
     color: #FFFFFF;
@@ -77,7 +78,7 @@ header{
 }
 
 .pagination_active a{
-    background-color: blue;
+    background-color: #FCD54C;
 }
 .pagination_pade {
     width: 30px;
@@ -96,15 +97,10 @@ header{
 }
 .pagination_page_previous {
     margin-top: 3px;
-
     color: black;
 
 }
 .pagination_page_next {
-
     margin-top: 3px;
-
-
-
 
 }
