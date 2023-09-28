@@ -1,9 +1,9 @@
 import React from 'react';
 import st from "./bestOffers.module.css";
-import BestOffersCard_1 from "./BestOffersCard-1";
-import BestOffersCard_2 from "./BestOffersCard-2";
-import BestOffersCard_3 from "./BestOffersCard-3";
-import BestOffersCard_4 from "./BestOffersCard-4";
+import BestOffersCard_1 from "./BestOfersCards/BestOffersCard-1";
+import BestOffersCard_2 from "./BestOfersCards/BestOffersCard-2";
+import BestOffersCard_3 from "./BestOfersCards/BestOffersCard-3";
+import BestOffersCard_4 from "./BestOfersCards/BestOffersCard-4";
 
 const BestOffers = () => {
     return (

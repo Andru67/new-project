@@ -1,17 +1,17 @@
 import React from 'react';
-import picture from "../../../assets/img/shutterstock_40238476 1.png";
+// import picture from "../../../assets/img/shutterstock_40238476 1.png";
 import {Link, useParams} from "react-router-dom";
 import st from "./blog.module.css";
-import {ReactComponent as Sing} from "./../../../assets/img/Arrow.svg";
+// import {ReactComponent as Sing} from "./../../../assets/img/Arrow.svg";
 // import {mockBlogsData} from "./Blogs";
 import {mockBlogs} from "../../../assets/mock/mockBlogs";
 
 
-const LearnMor = () => {
+const LearnMore = () => {
     let {id} = useParams();
     const blog = mockBlogs.find(item => item.id === Number(id))
 
-    console.log(blog)
+    console.log(useParams())
 
     return (
 
@@ -34,4 +34,4 @@ const LearnMor = () => {
 
 };
 
-export default LearnMor;
+export default LearnMore;

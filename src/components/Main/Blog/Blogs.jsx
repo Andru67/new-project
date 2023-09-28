@@ -6,6 +6,8 @@ import {ReactComponent as Sing} from "./../../../assets/img/Arrow.svg";
 import Pagination from "../../Pagination";
 import cn from "classnames";
 import {mockBlogs} from "../../../assets/mock/mockBlogs";
+import {MoreLink} from "../../commons/MoreLink/MoreLink";
+
 
 // const card = (id) => {
 //     return {
@@ -24,7 +26,7 @@ import {mockBlogs} from "../../../assets/mock/mockBlogs";
 
 // export const mockBlogs = Array(1144).fill(null).map((i, index) => card(index))
 
-const Blogs = (props) => {
+const Blogs = ({}) => {
 
     const imr = 'https://w.forfun.com/fetch/94/94c56e15f13f1de4740a76742b0b594f.jpeg'
     const cardsPerPage = 12;    // количество карточек которое будет показано
@@ -55,9 +57,8 @@ const Blogs = (props) => {
                                 <p className={cn(st.p2, st.short)}>
                                     {b.description}
                                 </p>
-                                <div  >
-                                    <Link to={`/blog/${b.id}`} className={st.a2}>learn more<Sing/></Link>
-                                </div>
+                                {/*<Link to={`/blog/${b.id}`} className={st.a2}>learn more<Sing/></Link>*/}
+                                <MoreLink path={`/blog/${b.id}`} className={st.a2}/>
                             </div>
                         </div>
                     )

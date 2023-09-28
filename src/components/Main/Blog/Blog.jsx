@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import st from './blog.module.css'
 import {ReactComponent as Search} from '../../../assets/img/search.svg';
-import LearnMor from "./LearnMor";
+import LearnMore from "./LearnMore";
 import Blogs from "./Blogs";
 
 const Blog = () => {
@@ -30,7 +30,7 @@ const Blog = () => {
             <div className={st.container}>
                 <ul >                           {/*<ul className={st.grid_container}>*/}
 
-                   {/* <li><LearnMor /></li>*/}
+                   {/* <li><LearnMore /></li>*/}
 
                     <li><Blogs /></li>
 

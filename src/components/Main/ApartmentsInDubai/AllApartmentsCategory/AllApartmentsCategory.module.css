@@ -1,0 +1,35 @@
+.title {
+    color: #FFF;
+    text-align: center;
+    font-family: Gilroy, sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 133.333% */
+
+}
+
+.slider {
+    display: flex;
+    margin-top: 60px;
+    /*background: #b3d4fc;*/
+    height: 430px;
+    width: 1450px;
+    margin-left: -45px;
+    padding-left: 20px;
+
+    gap: 14px;
+
+}
+
+.arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.pictures {
+    width: 330px;
+    background: white;
+}

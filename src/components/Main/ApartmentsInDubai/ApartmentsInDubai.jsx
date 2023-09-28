@@ -3,6 +3,7 @@ import st from './apartmentsInDubai.module.css'
 import ContactUs from "../../ContactUs/ContactUs";
 import Pagination from "../../Pagination";
 import BestOffers from "./BestOffers/BestOffers";
+import {AllApartmentsCategory} from "./AllApartmentsCategory/AllApartmentsCategory";
 
 
 const ApartmentsInDubai = () => {
@@ -14,6 +15,9 @@ const ApartmentsInDubai = () => {
                     <div>Apartments</div>
                     <div className={st.picture_text_colored}>in Dubai</div>
                 </div>
+            </div>
+            <div>
+                <AllApartmentsCategory/>
             </div>
             <BestOffers/>
             <div className={st.AID_pagination}>

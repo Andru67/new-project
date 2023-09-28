@@ -1,7 +1,7 @@
 import React from 'react';
-import {ReactComponent as Sing} from './../../../../assets/img/Arrow.svg';
-import st from './bestOffers.module.css'
-import srcCard from '../../../../assets/img/bestOffers/img-2.png'
+import {ReactComponent as Sing} from '../../../../../assets/img/Arrow.svg';
+import st from '../bestOffers.module.css'
+import srcCard from '../../../../../assets/img/bestOffers/img-2.png'
 import {Link} from "react-router-dom";
 
 
