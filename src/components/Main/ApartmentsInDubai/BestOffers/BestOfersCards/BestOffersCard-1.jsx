@@ -17,12 +17,10 @@ const BestOffersCard_1 = () => {
                      <h3 className={st.bestOffers_card_title_h3}>Arabian Ranches</h3>
                      <p className={st.bestOffers_card_description}>The launch of this community enabled expats to own a
                          luxurious property in Dubai.</p>
-
-                         <Link to={'#'} className={st.bestOffers_card_link}>
+                     <MoreLink path={'#'} className={st.bestOffers_card_link} iconClassName={st.svg} />
+                     {/* <Link to={'#'} className={st.bestOffers_card_link}>
                              learn more<Sing  className={st.svg}/>
-                         </Link>
-
-
+                         </Link>*/}
                  </div>
              </div>
         );

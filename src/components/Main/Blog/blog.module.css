@@ -109,16 +109,17 @@
 }
 
 .a2 {
-    display: flex;
+    color: #FFF;
+    /* display: flex;
     align-items: center;
     gap: 15px;
-    color: #FFF;
+
     font-family: Work Sans, sans-serif;
     font-size: 12px;
     font-style: normal;
     font-weight: 600;
     line-height: 14px;
-    text-decoration: none;
+    text-decoration: none;*/
 }
 
 img {
