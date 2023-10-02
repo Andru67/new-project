@@ -14,7 +14,7 @@ const BestOffers = () => {
                 <BestOffersCard_2/>
                 <BestOffersCard_3/>
                 <BestOffersCard_4/>
-                <div className={st.bestOffers_card}>1</div>
+
                 <div className={st.bestOffers_card}>1</div>
                 <div className={st.bestOffers_card}>1</div>
                 <div className={st.bestOffers_card}>1</div>

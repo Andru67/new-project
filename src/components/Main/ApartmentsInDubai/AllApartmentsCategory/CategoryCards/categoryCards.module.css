@@ -21,19 +21,64 @@
 }
 
 .general {
-    height: 350px;
+    height: 100%;
     padding-top: 210px;
     background-size: cover;
-    :hover {
-        border: none;
+    border: 5px solid transparent;
+
+    &:hover {
+        border: 5px solid #FBC710;
+
     }
 
 }
 
 .category_link {
-    color: white;
+   /* color: #fff;*/
     margin-top: 70px;
     margin-right: 15px;
     justify-content: right;
+
+}
+.category_link2 {
+    color: black;
+
+}
+.svg * {
+    stroke: black;
+}
+
+
+.text {
+    padding-top: 50px;
+    font-family: Work Sans, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.wrap {
+    text-align: left;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: black;
+    padding-top: 50px;
+    position: revert;
+    width: 100%;
+    height: 100%;
+    background: #FBC710;
+}
+
+.pictures {
+    width: 330px;
+    height: 100%;
+    color: #FFF;
+    text-align: center;
+    font-family: Gilroy, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; /* 54.167% */
 
 }

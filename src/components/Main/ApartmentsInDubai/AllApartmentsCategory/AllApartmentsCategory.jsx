@@ -8,7 +8,6 @@ import {CategoryCommercial} from "./CategoryCards/CategoryCommercial";
 import {CategoryApartments} from "./CategoryCards/CategoryApartments";
 
 export const AllApartmentsCategory = ({}) => {
-    console.log('AllApartmentsCategory')
 
     return (
         <div>
@@ -20,10 +19,10 @@ export const AllApartmentsCategory = ({}) => {
             </div>
             <div className={st.slider}>
                 <div className={st.arrow}><ArrowRite/></div>
-                <div className={st.pictures}><CategoryTownhouse/></div>
-                <div className={st.pictures}><CategoryVilla/></div>
-                <div className={st.pictures}><CategoryCommercial/></div>
-                <div className={st.pictures}><CategoryApartments/></div>
+                <div><CategoryTownhouse/></div>
+                <div><CategoryVilla/></div>
+                <div><CategoryCommercial/></div>
+                <div><CategoryApartments/></div>
                 <div className={st.arrow}><ArrowLeft/></div>
             </div>
         </div>

@@ -5,12 +5,14 @@ import LearnMore from "../../../Blog/LearnMore";
 import {MoreLink} from "../../../../commons/MoreLink/MoreLink";
 
 export const CategoryVilla = ({}) => {
-    console.log('CategoryVilla')
 
     return (
-        <div className={cn(st.villa, st.general)}>
-            <p>Villa</p>
-            <MoreLink path={'#'} className={st.category_link}/>
+        <div className={st.pictures}>
+            <div className={cn(st.villa, st.general)}>
+                <p>Villa</p>
+                <MoreLink path={'#'} className={st.category_link}/>
+            </div>
         </div>
+
     );
 }

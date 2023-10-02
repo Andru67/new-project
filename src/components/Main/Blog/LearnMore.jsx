@@ -11,8 +11,6 @@ const LearnMore = () => {
     let {id} = useParams();
     const blog = mockBlogs.find(item => item.id === Number(id))
 
-    console.log(useParams())
-
     return (
 
         <div className={st.blog_wrep}>

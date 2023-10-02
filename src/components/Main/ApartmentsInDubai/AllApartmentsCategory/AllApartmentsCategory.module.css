@@ -30,23 +30,4 @@
 
 }
 
-.pictures {
-    width: 330px;
-    height: 350px;
-    color: #FFF;
-    text-align: center;
-    font-family: Gilroy, sans-serif;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 26px; /* 54.167% */
-
-    :hover {
-        border: 5px solid #FBC710;
-
-    }
-
-
-}
-
 
