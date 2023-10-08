@@ -7,7 +7,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
-import './newTest.css';
+import './sliser.css';
 
 // import required modules
 import {Keyboard, Pagination, Navigation} from 'swiper/modules';
@@ -16,7 +16,7 @@ import {CategoryCommercial} from "./CategoryCards/CategoryCommercial";
 import {CategoryVilla} from "./CategoryCards/CategoryVilla";
 import {CategoryTownhouse} from "./CategoryCards/CategoryTownhouse";
 
-export default function NewTest() {
+export default function Sliser() {
     return (
         <>
             <Swiper

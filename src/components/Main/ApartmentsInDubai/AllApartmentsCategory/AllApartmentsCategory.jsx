@@ -1,6 +1,6 @@
 import React from 'react';
 import st from './AllApartmentsCategory.module.css';
-import NewTest from "./NewTest";
+import Sliser from "./Sliser";
 
 export const AllApartmentsCategory = ({}) => {
 
@@ -14,7 +14,7 @@ export const AllApartmentsCategory = ({}) => {
             </div>
 
             <div className={st.test}>
-                {NewTest()}
+                {Sliser()}
             </div>
         </div>
     );
