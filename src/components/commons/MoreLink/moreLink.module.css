@@ -2,7 +2,8 @@
     display: flex;
     align-items: center;
     gap: 15px;
-    color: #FFF;
+    /*color: #FFF;*/
+    color: inherit;
 
     font-family: Work Sans, sans-serif;
     font-size: 12px;

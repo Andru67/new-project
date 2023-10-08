@@ -1,0 +1,95 @@
+/*#app {
+    height: 100%;
+}*/
+/*html,
+body {
+    position: relative;
+    height: 100%;
+    width: 100%;
+
+
+}*/
+/*
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+*/
+.swiper-wrapper {
+    /*height: 400px;*/
+    margin-left: 45px;
+    margin-right: -450px;
+
+    /*margin-top: 60px;*/
+    /*margin-bottom: 60px;*/
+
+    /*gap: 5px;*/
+
+}
+
+.swiper {
+    width: 100%;
+    /*height: 100%;*/
+}
+
+.swiper-slide {
+    /* text-align: center;
+     font-size: 18px;
+     background: white;*/
+    /* Center slide text vertically */
+    /* display: flex;
+     justify-content: center;
+     align-items: center;*/
+    width: 30px;
+
+
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    /*height: 100%;*/
+    object-fit: cover;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    height: 360px;
+    width: 48px;
+    color: #FCD54C;;
+    font-size: 25px;
+    position: absolute;
+    top: 10px;
+    background: blue;
+    /*justify-content: center;*/
+    /*align-items: center;*/
+
+}
+
+.swiper-button-prev {
+    left: 0;
+}
+.swiper-button-next {
+    left: 1410px;
+}
+
+.swiper-pagination {
+
+    bottom: 330px;
+    position: relative;
+    top: 20px;
+    margin-top: 20px;
+
+
+}
+
+:root {
+    --swiper-navigation-size: 22px;
+    --swiper-theme-color: #FCD54C;
+
+}
+

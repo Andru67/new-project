@@ -1,6 +1,9 @@
 <svg width="10" height="15" viewBox="0 0 13 22" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g id="Arrow">
-<path id="Line 21" d="M12.1445 11.0254L0.822577 1.00085" stroke="white"/>
-<path id="Line 22" d="M0.822266 21.0254L12.1442 11.0008" stroke="white"/>
+<path id="Line 21" d="M12.1445 11.0254L0.822577 1.00085" stroke="currentColor"/>
+<path id="Line 22" d="M0.822266 21.0254L12.1442 11.0008" stroke="currentColor"/>
 </g>
 </svg>
+
+
+<!--<path id="Line 22" d="M0.822266 21.0254L12.1442 11.0008" stroke="white"/>-->

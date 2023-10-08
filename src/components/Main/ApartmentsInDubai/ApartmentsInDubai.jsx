@@ -4,6 +4,7 @@ import ContactUs from "../../ContactUs/ContactUs";
 import Pagination from "../../Pagination";
 import BestOffers from "./BestOffers/BestOffers";
 import {AllApartmentsCategory} from "./AllApartmentsCategory/AllApartmentsCategory";
+import NewTest from "./AllApartmentsCategory/NewTest";
 
 
 const ApartmentsInDubai = () => {
@@ -19,6 +20,9 @@ const ApartmentsInDubai = () => {
             <div>
                 <AllApartmentsCategory/>
             </div>
+            {/*<div className={st.test}>
+                {NewTest()}
+            </div>*/}
             <BestOffers/>
             <div className={st.AID_pagination}>
                 <Pagination pageCount={12}/>

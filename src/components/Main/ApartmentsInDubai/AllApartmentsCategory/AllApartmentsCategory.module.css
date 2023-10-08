@@ -27,7 +27,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #FCD54C;
 
 }
 
+.test {
+    margin-top: 60px;
+    height: 400px;
+    margin-left: -40px;
+    width: 1450px;
+
+}
 
