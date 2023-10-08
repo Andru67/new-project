@@ -14,7 +14,7 @@ export const CategoryTownhouse = () => {
     return (
         <div className={cn(styles.wrap, styles.backgraund_townhouse)}>
             <div className={contentClassNames}>
-                <h3 onClick={handleClick}>Townhous333</h3>
+                <h3 onClick={handleClick}>Townhous</h3>
 
                 <p className={styles.text}>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat molestie integer

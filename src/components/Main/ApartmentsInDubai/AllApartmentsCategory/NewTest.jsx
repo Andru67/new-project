@@ -15,7 +15,6 @@ import {CategoryApartments} from "./CategoryCards/CategoryApartments";
 import {CategoryCommercial} from "./CategoryCards/CategoryCommercial";
 import {CategoryVilla} from "./CategoryCards/CategoryVilla";
 import {CategoryTownhouse} from "./CategoryCards/CategoryTownhouse";
-import {TestCard} from "./CategoryCards/Test/TestCard";
 
 export default function NewTest() {
     return (
