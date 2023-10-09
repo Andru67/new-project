@@ -30,23 +30,3 @@ export const CategoryVilla = () => {
 };
 
 
-/*
-import React from 'react';
-import st from './categoryCards.module.css';
-import cn from "classnames";
-import LearnMore from "../../../Blog/LearnMore";
-import {MoreLink} from "../../../../commons/MoreLink/MoreLink";
-
-export const CategoryVilla = ({}) => {
-
-    return (
-        <div className={st.pictures}>
-            <div className={cn(st.villa, st.general)}>
-                <h3>Villa</h3>
-                <MoreLink path={'#'} className={st.category_link}/>
-            </div>
-        </div>
-
-    );
-}
-*/

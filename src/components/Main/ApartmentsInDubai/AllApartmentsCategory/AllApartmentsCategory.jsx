@@ -1,6 +1,6 @@
 import React from 'react';
 import st from './AllApartmentsCategory.module.css';
-import Sliser from "./Sliser";
+import Slicer from "../../../commons/Slider/Slicer";
 
 export const AllApartmentsCategory = ({}) => {
 
@@ -14,11 +14,10 @@ export const AllApartmentsCategory = ({}) => {
             </div>
 
             <div className={st.test}>
-                {Sliser()}
+                {Slicer()}
             </div>
         </div>
     );
 }
 
 
-//////

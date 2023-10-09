@@ -4,7 +4,7 @@ import ContactUs from "../../ContactUs/ContactUs";
 import Pagination from "../../Pagination";
 import BestOffers from "./BestOffers/BestOffers";
 import {AllApartmentsCategory} from "./AllApartmentsCategory/AllApartmentsCategory";
-// import Sliser from "./AllApartmentsCategory/Sliser";
+// import Slicer from "./AllApartmentsCategory/Slicer";
 
 
 const ApartmentsInDubai = () => {
@@ -21,7 +21,7 @@ const ApartmentsInDubai = () => {
                 <AllApartmentsCategory/>
             </div>
             {/*<div className={st.test}>
-                {Sliser()}
+                {Slicer()}
             </div>*/}
             <BestOffers/>
             <div className={st.AID_pagination}>

@@ -31,22 +31,3 @@ export const CategoryTownhouse = () => {
 
 
 
-/*
-import React from 'react';
-import st from './categoryCards.module.css';
-import cn from 'classnames'
-import {MoreLink} from "../../../../commons/MoreLink/MoreLink";
-
-export const CategoryTownhouse = ({}) => {
-
-    return (
-        <div className={st.pictures}>
-            <div className={cn(st.townhouse, st.general)}>
-                <h3>Townhouse</h3>
-                <MoreLink path={'#'} className={st.category_link}/>
-            </div>
-        </div>
-
-    );
-}
-*/

@@ -30,22 +30,4 @@ export const CategoryCommercial = () => {
 };
 
 
-/*
-import React from 'react';
-import st from './categoryCards.module.css'
-import cn from "classnames";
-import {MoreLink} from "../../../../commons/MoreLink/MoreLink";
 
-export const CategoryCommercial = ({}) => {
-
-    return (
-        <div className={st.pictures}>
-            <div className={cn(st.commercial, st.general)}>
-                <h3>Commercial</h3>
-                <MoreLink path={'#'} className={st.category_link}/>
-            </div>
-        </div>
-
-    );
-}
-*/
