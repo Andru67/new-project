@@ -38,7 +38,7 @@ const BookConsultation = () => {
                     &times;
                 </div>
                 <div className={st.modal_container}>
-                    <div  className={st.modal_window} ref={wrapperRef}>
+                    <div className={st.modal_window} ref={wrapperRef}>
                         <div className={st.modal_h1}>
                             <h1>Leave your contacts</h1>
                         </div>
@@ -67,9 +67,9 @@ const BookConsultation = () => {
 
     return (
         <>
-            <button className={style.rectangle} onClick={handleShow}>
+            <div className={style.rectangle} onClick={handleShow}>
                 Book a consultation
-            </button>
+            </div>
             {modal}
         </>
     );

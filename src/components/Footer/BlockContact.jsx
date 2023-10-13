@@ -14,9 +14,9 @@ const BlockContact = () => {
             <div>
                 <a href="mailto:name@email.com" className={st.mailto}>dubairealty@mail.com</a>
             </div>
-            <div className={st.button}>
+            <button className={st.button}>
                 <BookConsultation/>
-            </div>
+            </button>
 
 
         </div>

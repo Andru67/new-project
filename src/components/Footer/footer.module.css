@@ -47,8 +47,12 @@
 }
 
 .button{
+    width: 165px;
+    height: 41px;
+    padding: 11px;
+    background: #FBC710;
     position: absolute;
-    bottom: 0px;
+    bottom: 0;
 }
 
 .footer_text{

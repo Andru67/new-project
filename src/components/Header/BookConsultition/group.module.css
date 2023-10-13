@@ -2,18 +2,17 @@
 .rectangle{
     display: flex;
     align-items: flex-end;
-    width: 165px;
-    height: 41px;
-    margin-left: auto;
-    margin-right: 6%;
-    /*margin-right: 110px;*/
-    padding: 11px;
-
     font-family: 'Work Sans', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
     line-height: 16px;
-
-    background: #FBC710;
+    /*width: 165px;*/
+    /*height: 41px;*/
+    /*margin-left: auto;*/
+    /*margin-right: 6%;*/
+    /*margin-right: 110px;*/
+    /*padding: 11px;*/
+    /*background: #FBC710;*/
 }
+

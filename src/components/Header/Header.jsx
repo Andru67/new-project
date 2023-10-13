@@ -15,7 +15,7 @@ const Header = () => {
             <div className={st.header}>
                 <Logo/>
                 <Navbar/>
-                <BookConsultation/>
+                <button className={st.button}><BookConsultation/></button>
                 <LangSwitcher/>
                 <Phone/>
 

@@ -3,6 +3,7 @@ import st from './slicerAbout.module.css'
 import {ReactComponent as Sing} from "../../../../assets/img/Arrow.svg";
 import iconF from '../../../../assets/img/icons/icons-columm.svg'
 import cn from "classnames";
+import BookConsultation from "../../../Header/BookConsultition/BookConsultation";
 
 const SlicerAbout = () => {
     return (
@@ -19,7 +20,7 @@ const SlicerAbout = () => {
                     <h3 className={st.slider_logo_text_h3}>Welcome Home </h3>
                     <h3 className={st.slider_logo_text_h3}><span
                         className={st.slider_logo_text_h3_span}>To</span> Luxury</h3>
-                    <p className={st.slider_logo_link}>Book a consultation<Sing/></p>
+                    <div className={st.slider_logo_link}><BookConsultation/><Sing/></div>
                 </div>
                 <div className={st.slider_logo_line}></div>
             </div>
