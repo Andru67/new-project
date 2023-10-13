@@ -1,5 +1,71 @@
-.text{
+.text {
     margin: 150px 500px;
     font-size: 30px;
 
+}
+
+.block_projects {
+    height: 800px;
+    margin-top: 80px;
+    border: 5px solid white;
+}
+
+.block_expertyise {
+    width: 650px; /**/
+    /*height: 550px;*/
+    margin-top: 80px;
+    margin-inline: auto;
+    color: #E8E8E8;
+    /*border: 1px solid white;*/
+}
+
+.block_expertyise_p {
+    font-family: "Work Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    Line-height: 28px;
+    color: #FCD54C;
+;
+}
+
+.block_expertyise_h3 {
+    margin-top: 40px;
+    font-family: 'Gilroy', sans-serif;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 65px;
+    margin-bottom: 40px;
+}
+.block_expertyise_text {
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    Line-height: 28px;
+}
+.block_player {
+    margin-top: 60px;
+    height: 700px;
+    border: 1px solid white;
+    text-align: center;
+    padding-top: 300px;
+    font-size: 50px;
+}
+
+.block_container {
+    width: 900px;
+    margin-inline: auto;
+}
+.block_description {
+    font-family: 'Gilroy', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 40px;
+    color: #fff;
+    height: 280px;
+    border: 1px solid #FCD54C;
+    padding: 65px;
+    margin-top: 80px;
+}
+.block_description_span {
+    color: #FCD54C;
 }

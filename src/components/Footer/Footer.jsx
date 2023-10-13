@@ -6,7 +6,7 @@ import BlockServices from "./BlockServices";
 import BlockInformation from "./BlockInformation";
 import BlockAboutCompany from "./BlockAboutCompany";
 import BlockContact from "./BlockContact";
-import {ReactComponent as Icons} from "../../assets/img/icons.svg";
+import {ReactComponent as Icons} from "../../assets/img/icons/icons-line.svg";
 
 const year = new Date().getFullYear()
 

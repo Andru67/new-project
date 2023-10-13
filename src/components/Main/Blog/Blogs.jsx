@@ -51,7 +51,7 @@ const Blogs = ({}) => {
                 {
                     asd.map(b => <div key={b.id}>
 
-                            <img src={b.img}/>
+                            <img src={b.img} alt={''}/>
                             <div className={st.box}>
                                 <span className={st.span}>{b.title}</span>
                                 <p className={cn(st.p2, st.short)}>

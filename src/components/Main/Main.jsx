@@ -1,5 +1,5 @@
 import React from 'react';
-import Slider from "./About/Slider/Slider";
+import SlicerAbout from "./About/SlicerAbout/SlicerAbout";
 import Contact from "./Contact/Contact";
 import {Route, Routes, useParams} from "react-router-dom";
 import Blog from "./Blog/Blog";
@@ -13,7 +13,7 @@ const Main = () => {
     return (
         <div className='wrapper'>
             <Routes>
-                <Route path='/' element={<Slider/>}/>
+                <Route path='/' element={<SlicerAbout/>}/>
                 <Route path='/blog' element={<Blog/>}/>
                 <Route path='/about' element={<About/>}/>
                 <Route path='/contact' element={<Contact/>}/>

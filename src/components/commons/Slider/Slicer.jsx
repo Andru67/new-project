@@ -14,6 +14,7 @@ import {CategoryApartments} from "../../Main/ApartmentsInDubai/AllApartmentsCate
 import {CategoryCommercial} from "../../Main/ApartmentsInDubai/AllApartmentsCategory/CategoryCards/CategoryCommercial";
 import {CategoryVilla} from "../../Main/ApartmentsInDubai/AllApartmentsCategory/CategoryCards/CategoryVilla";
 import {CategoryTownhouse} from "../../Main/ApartmentsInDubai/AllApartmentsCategory/CategoryCards/CategoryTownhouse";
+import BookConsultation from "../../Header/BookConsultition/BookConsultation";
 
 export default function Slicer() {
     return (
@@ -32,6 +33,7 @@ export default function Slicer() {
                 modules={[Keyboard, Pagination, Navigation]}
                 className="mySwiper"
             >
+                <BookConsultation>333</BookConsultation>
                 <SwiperSlide><CategoryTownhouse/></SwiperSlide>
                 <SwiperSlide><CategoryVilla/></SwiperSlide>
                 <SwiperSlide><CategoryCommercial/></SwiperSlide>

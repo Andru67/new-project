@@ -1,0 +1,138 @@
+.slider {
+    display: flex;
+    flex-direction: column;
+
+    height: 700px;
+    background: url(../../../../assets/img/slider1.png) no-repeat center;
+    background-size: cover;
+    color: #ffffff;
+    /*padding-top: 200px;*/
+    padding-left: 260px;
+    /*
+    !*наложение допщлнительного цвета на картинку*!
+    background-blend-mode: overlay;
+    background-color: rgba(39, 39, 39, 0.5);
+    */
+}
+
+.slider_logo_border {
+    width: 710px;
+    height: 280px;
+    border-left: 3px solid #FCD54C;
+    position: relative;
+    padding: 20px;
+
+}
+
+
+.slider_logo_text {
+    width: 700px;
+}
+
+.slider_logo_text:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90px;
+    border-top: 3px solid #FCD54C;
+}
+
+.slider_logo_text:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 90px;
+    border-bottom: 3px solid #FCD54C;
+}
+
+.slider_logo_text_p {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 30;
+    font-size: 14px;
+}
+
+.slider_logo_text_h3 {
+    font-family: Space, sans-serif;
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 60px;
+    margin-top: 20px;
+}
+
+.slider_logo_text_h3_span {
+    color: #FCD54C;
+}
+
+.slider_logo_link {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 26px;
+    margin-bottom: 26px;
+}
+
+.slider_space_top {
+    display: flex;
+    justify-content: flex-end;
+    height: 200px;
+
+}
+
+.slider_icons {
+    width: 16px;
+    height: 100%;
+    margin-right: 20px;
+}
+
+.slider_space_buttons {
+    display: flex;
+    margin-top: auto;
+    margin-bottom: 0;
+    align-items: flex-end;
+    width: 100%;
+    height: 150px;
+}
+
+.slider_space_buttons_bloc {
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    width: 25%;
+    height: 100%;
+}
+
+.slider_space_button_prev {
+    display: flex;
+    margin-left: 50px;
+    gap: 15px;
+    font-family: Gilroy, sans-serif;
+    font-weight: 700;
+    letter-spacing: 3px;
+    font-size: 16px;
+}
+
+.slider_space_buttons_bloc_num {
+    font-family: Gilroy, sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 50px;
+    margin-right: 20px;
+}
+
+.slider_space_buttons_bloc_text {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.back {
+    background: black;
+}
+
