@@ -33,7 +33,6 @@ export default function Slicer() {
                 modules={[Keyboard, Pagination, Navigation]}
                 className="mySwiper"
             >
-                <BookConsultation>333</BookConsultation>
                 <SwiperSlide><CategoryTownhouse/></SwiperSlide>
                 <SwiperSlide><CategoryVilla/></SwiperSlide>
                 <SwiperSlide><CategoryCommercial/></SwiperSlide>

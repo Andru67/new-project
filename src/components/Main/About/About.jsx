@@ -1,13 +1,14 @@
 import React from 'react';
 import st from './about.module.css'
 import SlicerAbout from "./SlicerAbout/SlicerAbout";
+import {LatestProjects} from "./LatestProjects/LatestProjects";
 
 const About = () => {
     return (
         <div>
             <SlicerAbout/>
             <div className={st.block_projects}>
-                Latest projects
+                <LatestProjects/>
             </div>
             <div className={st.block_expertyise}>
                 <p className={st.block_expertyise_p}>Our expertise</p>
