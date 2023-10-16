@@ -1,6 +1,6 @@
 import React from 'react';
 import st from './AllApartmentsCategory.module.css';
-import Slicer from "../../../commons/Slider/Slicer";
+import Slicer from "./Slider/Slicer";
 
 export const AllApartmentsCategory = ({}) => {
 

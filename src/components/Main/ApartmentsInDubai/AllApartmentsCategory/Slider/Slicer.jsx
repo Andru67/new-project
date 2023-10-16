@@ -10,11 +10,11 @@ import './slicer.css';
 
 // import required modules
 import {Keyboard, Pagination, Navigation} from 'swiper/modules';
-import {CategoryApartments} from "../../Main/ApartmentsInDubai/AllApartmentsCategory/CategoryCards/CategoryApartments";
-import {CategoryCommercial} from "../../Main/ApartmentsInDubai/AllApartmentsCategory/CategoryCards/CategoryCommercial";
-import {CategoryVilla} from "../../Main/ApartmentsInDubai/AllApartmentsCategory/CategoryCards/CategoryVilla";
-import {CategoryTownhouse} from "../../Main/ApartmentsInDubai/AllApartmentsCategory/CategoryCards/CategoryTownhouse";
-import BookConsultation from "../../Header/BookConsultition/BookConsultation";
+import {CategoryApartments} from "../CategoryCards/CategoryApartments";
+import {CategoryCommercial} from "../CategoryCards/CategoryCommercial";
+import {CategoryVilla} from "../CategoryCards/CategoryVilla";
+import {CategoryTownhouse} from "../CategoryCards/CategoryTownhouse";
+import BookConsultation from "../../../../Header/BookConsultition/BookConsultation";
 
 export default function Slicer() {
     return (
