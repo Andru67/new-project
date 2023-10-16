@@ -12,7 +12,7 @@ const Dropdown = () => {
                     </li>
                 </ul>
                 <ul className={st.dropdown_ul}>
-                    <li>
+                    <li >
                         <NavLink to='/apartments-in-dubai' className={st.dropdown_link}>Apartments in Dubai</NavLink>
                     </li>
                 </ul>

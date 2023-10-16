@@ -13,7 +13,7 @@ export const AllApartmentsCategory = ({}) => {
                 Category
             </div>
 
-            <div className={st.test}>
+            <div className={st.block_slider}>
                 {Slicer()}
             </div>
         </div>
