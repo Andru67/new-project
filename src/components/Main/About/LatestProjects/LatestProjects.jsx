@@ -1,6 +1,6 @@
 import React from 'react';
-import qwe from "../../../../assets/img/slider1.png";
-import st from './latestProjects.module.css';
+import st from './latestProject.module.css';
+import SliderProject from "./SliderProject/SliderProject";
 
 export const LatestProjects = ({}) => {
 
@@ -13,6 +13,9 @@ export const LatestProjects = ({}) => {
                 <div className={st.latest_project_title_categories}>Building</div>
                 <div className={st.latest_project_title_categories}>Interior</div>
                 <div className={st.latest_project_title_categories_reset}>View all projects</div>
+            </div>
+            <div>
+                <SliderProject/>
             </div>
 
         </div>

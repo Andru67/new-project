@@ -1,0 +1,21 @@
+/*.button_next,*/
+/*.button_prev {*/
+/*    !*position: absolute;*!*/
+/*    top: 0;*/
+/*    z-index: 5;*/
+/*    justify-content: center;*/
+/*    color: #FCD54C;*/
+/*    width: 30px;*/
+/*    cursor: pointer;*/
+
+/*}*/
+
+/*.button_prev {*/
+/*    left: -10px;*/
+/*}*/
+/*.button_next {*/
+/*    right: 0;*/
+/*    margin-left: 100px;*/
+
+/*}*/
+

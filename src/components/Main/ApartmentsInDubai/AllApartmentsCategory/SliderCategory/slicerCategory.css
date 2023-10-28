@@ -1,14 +1,14 @@
-
 .swiper-wrapper {
-    margin-left: 40px;
-    gap: 4px;
+    /*margin-left: 40px;*/
+    /*position: revert;*/
+
 }
 
 
 .swiper-button-prev,
 .swiper-button-next {
     height: 100%;
-    width: 45px;
+    width: 25px;
     font-size: 25px;
     /*position: absolute;*/
     top: 0;
@@ -17,8 +17,12 @@
 }
 
 .swiper-button-prev {
-    left: 0;
+    position: absolute;
+    left: -20px;
+    margin-left: 20px;
+
 }
+
 .swiper-button-next {
     right: 0;
 }
@@ -31,14 +35,16 @@
 .swiper-pagination {
     bottom: 330px;
     position: relative;
-    top: 20px;
+    /*top: 20px;*/
     margin-top: 20px;
     /*background: #fff;*/
 }
 
+
 .swiper-pagination-bullet {
     background-color: #fff;
 }
+
 .swiper-pagination-bullet-active {
     background-color: #FCD54C;
 }

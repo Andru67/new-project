@@ -31,10 +31,36 @@
 }
 
 .block_slider {
+    display: flex;
+    justify-content: center;
     margin-top: 60px;
     height: 400px;
-    margin-left: -40px;
-    width: 1450px;
+    margin-bottom: 100px;
+    /*position: revert;*/
+    /*margin-left: -40px;*/
+    /*width: 1450px;*/
+    /*width: 100%;*/
+    /*margin-left: -40px;*/
+    /*margin-right: -40px;*/
+    /*border: 1px solid red;*/
+
+
+}
+
+.block_slider_wrap {
+
+    width: 1390px;
+    align-items: center;
+    justify-content: center;
+}
+
+.block_slider_button {
+    display: flex;
+    justify-content: center;
+    margin-top: 170px;
+    color: #FCD54C;
+    width: 30px;
+    cursor: pointer;
 
 }
 
