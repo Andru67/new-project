@@ -18,10 +18,10 @@ export const ProjectCard_2 = ({}) => {
                     Dudai
                 </div>
                 <div className={st.text}>
-                    <d>
+                    <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat molestie integer
                         aliquam consectetur. Faucibus vitae dui massa tellus magna sit.
-                    </d>
+                    </p>
                 </div>
                 <div className={st.card_linK}>See project<Singh /></div>
             </div>

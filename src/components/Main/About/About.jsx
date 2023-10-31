@@ -1,12 +1,12 @@
 import React from 'react';
 import st from './about.module.css'
-import SlicerAbout from "./SlicerAbout/SlicerAbout";
+import AboutHeader from "./AboutHeader/AboutHeader";
 import {LatestProjects} from "./LatestProjects/LatestProjects";
 
 const About = () => {
     return (
         <div>
-            <SlicerAbout/>
+            <AboutHeader/>
             <div className={st.block_projects}>
                 <LatestProjects/>
             </div>

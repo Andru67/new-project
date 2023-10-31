@@ -23,7 +23,6 @@ const SliderProject = () => {
             <Swiper
                 slidesPerView={4}
                 spaceBetween={1}
-                // width={1300}
                 keyboard={{
                     enabled: true,
                 }}
@@ -31,7 +30,7 @@ const SliderProject = () => {
                     clickable: true,
                 }}
                 // navigation={true}
-                modules={[Keyboard, Pagination, Navigation]}
+                modules={[Keyboard, Pagination/*, Navigation*/]}
                 className="mySwiper"
             >
                 <SwiperSlide><ProjectCard_1/></SwiperSlide>

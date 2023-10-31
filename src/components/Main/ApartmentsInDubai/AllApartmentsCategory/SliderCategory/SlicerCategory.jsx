@@ -40,6 +40,8 @@ const SlicerCategory = ({showNav}) => {
         >
             {/*{showNav && <Nav/>}*/}
             {/*<Nav/>*/}
+
+
             <SwiperSlide><CategoryTownhouse/></SwiperSlide>
             <SwiperSlide><CategoryVilla/></SwiperSlide>
             <SwiperSlide><CategoryCommercial/></SwiperSlide>
