@@ -118,16 +118,27 @@
     height: 100%;
 }
 
-.about_header_space_button_prev {
+.about_header_space_buttons_toggle{
     display: flex;
     margin-left: 50px;
     gap: 15px;
+    font-weight: 900;
+    z-index: 3;
+}
+
+.btn_prev,
+.btn_next {
+    background: transparent;
+    border: none;
     font-family: Gilroy, sans-serif;
-    font-weight: 700;
+    font-weight: 900;
     letter-spacing: 3px;
     font-size: 16px;
-    z-index: 3;
+    color: #ffffff;
     cursor: pointer;
+    &.disable {
+        color: #929292;
+    }
 }
 
 .about_header_space_buttons_bloc_num {
@@ -138,10 +149,14 @@
     margin-right: 20px;
     cursor: pointer;
     z-index: 3;
+    &.active {                      /* в замен  .about_header_space_buttons_bloc_num.active {} */
+        color: #FCD54C;
+    }
 }
-/*.about_header_space_buttons_bloc_num:focus {
+/*.about_header_space_buttons_bloc_num.active {
     color: #FCD54C;
 }*/
+
 .about_header_space_buttons_bloc_text {
     font-family: "Work Sans", sans-serif;
     font-weight: 600;
