@@ -1,0 +1,38 @@
+.block_advertisement {
+    width: 900px;
+    margin-inline: auto;
+}
+.block_advertisement_description {
+    font-family: 'Gilroy', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 40px;
+    color: #fff;
+    height: 280px;
+    border: 1px solid #FCD54C;
+    padding: 65px;
+    margin-top: 80px;
+    .span {
+        color: #FCD54C;
+    }
+}
+.block_advertisement_wrap {
+    display: flex;
+    gap: 15px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.block_advertisement_title {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #E8E8E8;
+    width: 50%;
+}
+
+.img {
+    width: 100%;
+    margin-bottom: 50px;
+}

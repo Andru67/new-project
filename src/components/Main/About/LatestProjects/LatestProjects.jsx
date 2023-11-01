@@ -6,7 +6,7 @@ export const LatestProjects = ({}) => {
 
 
     return (
-        <div>
+        <div className={st.block_projects}>
             <div className={st.latest_project_title}>
                 <div className={st.latest_project_title_name}>Latest projects</div>
                 <div className={st.latest_project_title_categories}>All</div>
