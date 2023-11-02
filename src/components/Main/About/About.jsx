@@ -8,6 +8,7 @@ import {VideoPlayer} from "./VideoPlayer/VideoPlayer";
 import {Advertisement} from "./Advertisement/Advertisement";
 import {WorkingStaff} from "./WorkingStaff/WorkingStaff";
 import {FAQ} from "./FAQ/FAQ";
+import {UsefulArticles} from "./UsefulArticles/UsefulArticles";
 
 const About = () => {
     return (
@@ -18,11 +19,15 @@ const About = () => {
             <VideoPlayer/>
             <Advertisement/>
             <ContactUs/>
-            <div>Useful articles</div>
+            <div>
+                <UsefulArticles/>
+            </div>
             <div>
                 <WorkingStaff/>
             </div>
-            <div><FAQ/></div>
+            <div>
+                <FAQ/>
+            </div>
         </div>
     );
 };

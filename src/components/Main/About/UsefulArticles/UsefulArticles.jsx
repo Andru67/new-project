@@ -4,7 +4,7 @@ import st from './usefulArticles.module.css';
 export const UsefulArticles = ({}) => {
 
     return (
-        <div>
+        <div className={st.wrapper}>
             UsefulArticles
         </div>
     );

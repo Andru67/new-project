@@ -22,7 +22,7 @@ const SliderProject = () => {
         <>
             <Swiper
                 slidesPerView={4}
-                spaceBetween={1}
+                spaceBetween={20}
                 keyboard={{
                     enabled: true,
                 }}

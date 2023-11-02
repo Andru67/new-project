@@ -7,9 +7,9 @@ import cn from "classnames";
 
 export const AboutHeaderNav = ({activeSlide, isBeginning, isEnd}) => {     //  принимаем пропс
 
-    console.log(activeSlide)           // проверка передачи пропсов
-    console.log(isBeginning)
-    console.log(isEnd)
+    // console.log(activeSlide)           // проверка передачи пропсов
+    // console.log(isBeginning)
+    // console.log(isEnd)
 
 
     const swiper = useSwiper();
