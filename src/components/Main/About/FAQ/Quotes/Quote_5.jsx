@@ -1,12 +1,8 @@
 import React, {useState} from 'react';
-import st from './collaps.module.css';
-import cn from "classnames";
-import {ReactComponent as Sign} from './../../../../../assets/img/Arrow.svg';
 import {Quotes_Prototype} from "./Quotes_Prototype";
 
 
 export const Quote_5 = ({}) => {
-
 
     const label = 'Collected quotes from Albert Einstein'
 

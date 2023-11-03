@@ -1,6 +1,4 @@
 import React, {useState} from 'react';
-import st from './collaps.module.css';
-import cn from "classnames";
 import {Quotes_Prototype} from "./Quotes_Prototype";
 
 
