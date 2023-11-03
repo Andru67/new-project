@@ -15,7 +15,7 @@ export const SliderWorkingStaff = ({}) => {
             <Swiper
                 initialSlide={1}              /* Порядковый номер начального слайда.*/
                // slidesOffsetAfter={300}
-                slidesOffsetBefore={300}      // смещение картинок слайдера
+                slidesOffsetBefore={270}      // смещение картинок слайдера
                 loop={true}                   // зациклиность
                 width={900}
                 slidesPerView={2}

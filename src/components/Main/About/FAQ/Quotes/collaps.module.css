@@ -1,0 +1,35 @@
+.wrapper {
+    border-top: 1px solid #929292;
+    border-bottom: 1px solid #929292;
+    padding: 16px 0;
+}
+
+.label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.sing {
+    color: #FCD54C;
+    width: 20px;
+    height: 20px;
+    transition: 500ms;
+
+
+}
+.turnSing{
+    transform: rotate(0.25turn);
+    transition: 500ms;
+}
+
+.text {
+    display: none;
+
+}
+
+.showText {
+    padding: 20px 60px;
+    display: revert;
+
+}

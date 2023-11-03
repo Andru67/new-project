@@ -1,0 +1,15 @@
+.wrapper {
+    border: 1px solid #FCD54C;
+    width: 900px;
+    /*height: 400px;*/
+    margin-inline: auto;
+    margin-bottom: 100px;
+}
+
+.title {
+    font-family: Gilroy, sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 80px;
+    color: #ffffff;
+}
