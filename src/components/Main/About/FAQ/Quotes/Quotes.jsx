@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import st from './quotes.module.css';
-import cn from "classnames";
 import {ReactComponent as Sign} from './../../../../../assets/img/Arrow.svg';
+import cn from "classnames";
 
 
 // const Quotes = [
@@ -74,11 +74,13 @@ const items = [
 ]
 export const Quotes = ({}) => {
     const [activeIndex, setActiveIndex] = useState(-1) // -1 = null
+    const [turnSing, setTurnSing] = useState(false)
 
     const handleClick = (index) => {
         setActiveIndex((prev) => (prev === index ? -1 : index))
+        setTurnSing(prev => !prev)
     }
-
+    console.log(turnSing)
     /*
 
     export const Quotes = ({label, text, id}) => {
@@ -101,12 +103,18 @@ export const Quotes = ({}) => {
 
         <div>
             {items.map((item, index) => (
-                <p className={st.wrapper} key={index}>
+                <div className={st.wrapper} key={index}>
                     <div className={st.label} onClick={() => handleClick(index)}>
-                        {item.index} {item.label} <Sign className={st.sing}/>
+                        {item.index} {item.label}
+                        {activeIndex === index
+                            ?
+                            <Sign className={cn(st.sing, st.turnSing)}/>
+                            :
+                            <Sign className={st.sing}/>
+                        }
                     </div>
                     {activeIndex === index && <div className={st.text}>{item.text}</div>}
-                </p>
+                </div>
             ))}
 
         </div>
