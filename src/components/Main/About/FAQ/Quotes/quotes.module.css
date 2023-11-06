@@ -2,6 +2,8 @@
     border-top: 1px solid #929292;
     border-bottom: 1px solid #929292;
     padding: 16px 0;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
 }
 
 .label {
@@ -9,29 +11,26 @@
     justify-content: space-between;
     align-items: center;
     cursor: pointer;
+    color: #ffffff;
+    font-size: 16px;
 
 }
 .sing {
     color: #FCD54C;
     width: 20px;
     height: 20px;
-    transition: 500ms;
-
-
+    transition: 300ms;
 }
+
 .turnSing{
     transform: rotate(0.25turn);
     transition: 300ms;
 }
 
 .text {
-    display: none;
-
-}
-
-.showText {
     padding: 20px 60px;
     display: revert;
-
-
+    color: #E8E8E8;
+    font-size: 14px;
+    line-height: 20px;
 }
