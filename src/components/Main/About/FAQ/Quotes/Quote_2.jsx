@@ -4,6 +4,8 @@ import {Quotes_Prototype} from "./Quotes_Prototype";
 
 export const Quote_2 = ({}) => {
 
+    const id=2
+
     const label = 'TA huge collection of inspirational quotes, thoughts of greatest minds in history'
 
     const text =
@@ -19,7 +21,7 @@ export const Quote_2 = ({}) => {
 
     return (
         <div>
-            <Quotes_Prototype text={text} label={label}/>
+            <Quotes_Prototype text={text} label={label} id={id}/>
         </div>
     );
 }

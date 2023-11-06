@@ -4,6 +4,8 @@ import {Quotes_Prototype} from "./Quotes_Prototype";
 
 export const Quote_5 = ({}) => {
 
+    const id=5
+
     const label = 'Collected quotes from Albert Einstein'
 
     const text =
@@ -19,7 +21,7 @@ export const Quote_5 = ({}) => {
 
     return (
         <div>
-            <Quotes_Prototype text={text} label={label}/>
+            <Quotes_Prototype text={text} label={label} id={id}/>
         </div>
     );
 }

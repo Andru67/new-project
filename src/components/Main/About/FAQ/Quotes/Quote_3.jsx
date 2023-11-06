@@ -4,6 +4,8 @@ import {Quotes_Prototype} from "./Quotes_Prototype";
 
 export const Quote_3 = ({}) => {
 
+    const id=3
+
     const label = 'Quotations from the great works of literature'
 
     const text =
@@ -19,7 +21,7 @@ export const Quote_3 = ({}) => {
 
     return (
         <div>
-            <Quotes_Prototype text={text} label={label}/>
+            <Quotes_Prototype text={text} label={label} id={id}/>
         </div>
     );
 }

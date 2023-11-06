@@ -3,6 +3,7 @@ import {Quotes_Prototype} from "./Quotes_Prototype";
 
 
 export const Quote_1 = ({}) => {
+    const id=1
 
     const label = 'The largest and oldest Quotations Page on the Web with about 30 categories'
 
@@ -19,7 +20,7 @@ export const Quote_1 = ({}) => {
 
     return (
         <div>
-            <Quotes_Prototype text={text} label={label}/>
+            <Quotes_Prototype text={text} label={label} id={id}/>
         </div>
     );
 }

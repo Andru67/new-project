@@ -8,6 +8,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    cursor: pointer;
 
 }
 .sing {
@@ -20,7 +21,7 @@
 }
 .turnSing{
     transform: rotate(0.25turn);
-    transition: 500ms;
+    transition: 300ms;
 }
 
 .text {
@@ -31,5 +32,6 @@
 .showText {
     padding: 20px 60px;
     display: revert;
+
 
 }

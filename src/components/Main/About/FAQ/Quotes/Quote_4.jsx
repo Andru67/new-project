@@ -4,6 +4,8 @@ import {Quotes_Prototype} from "./Quotes_Prototype";
 
 export const Quote_4 = ({}) => {
 
+    const id=4
+
     const label = 'Read quotes and sayings from famous people in history'
 
     const text =
@@ -19,7 +21,7 @@ export const Quote_4 = ({}) => {
 
     return (
         <div>
-            <Quotes_Prototype text={text} label={label}/>
+            <Quotes_Prototype text={text} label={label} id={id}/>
         </div>
     );
 }

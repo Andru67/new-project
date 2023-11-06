@@ -7,7 +7,7 @@ export const LangSwitcher = () => {
 
     const handleClickEn = () => setLang('en');
     const handleClickRu = () => setLang('ru');
-
+    console.log(lang)
     return (
         <div className={st.lang}>
             <span
