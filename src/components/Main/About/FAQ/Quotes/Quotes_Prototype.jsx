@@ -4,12 +4,14 @@ import cn from "classnames";
 import {ReactComponent as Sign} from './../../../../../assets/img/Arrow.svg';
 
 
+
+
 export const Quotes_Prototype = ({label, text, id}) => {
     const [showText, setShowText] = useState(false)
     const [turnSing, setTurnSing] = useState(false)
     // const [id, setId] = useState(0)
 
-    const handleClick = (id) => {
+    const handleClick = () => {
         setShowText(prev => !prev)
         setTurnSing(prev => !prev)
     }
