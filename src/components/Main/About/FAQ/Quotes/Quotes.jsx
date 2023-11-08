@@ -105,7 +105,8 @@ export const Quotes = ({}) => {
             {items.map((item, index) => (
                 <div className={st.wrapper} key={index}>
                     <div className={st.label} onClick={() => handleClick(index)}>
-                        {item.index} {item.label}
+                        {/*{item.index}*/}
+                        {item.label}
                         {activeIndex === index
                             ?
                             <Sign className={cn(st.sing, st.turnSing)}/>
@@ -118,15 +119,6 @@ export const Quotes = ({}) => {
             ))}
 
         </div>
-        /* <div className={st.wrapper}>
-             <div className={st.label} onClick={handleClick}>
-                 {label}
-                 <Sign className={contentClassName2}/>
-             </div>
-             <div className={contentClassName}>
-                 {text}
-             </div>
-         </div>*/
 
     );
 }
