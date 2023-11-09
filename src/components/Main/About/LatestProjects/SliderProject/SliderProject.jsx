@@ -17,6 +17,7 @@ import {ProjectCard_4} from "../ProjectCards/ProjectCard_4";
 import {ProjectCard_6} from "../ProjectCards/ProjectCard_6";
 import {ProjectCard_5} from "../ProjectCards/ProjectCard_5";
 
+
 const SliderProject = () => {
     return (
         <>
@@ -39,7 +40,6 @@ const SliderProject = () => {
                 <SwiperSlide><ProjectCard_4/></SwiperSlide>
                 <SwiperSlide><ProjectCard_5/></SwiperSlide>
                 <SwiperSlide><ProjectCard_6/></SwiperSlide>
-
             </Swiper>
         </>
     );

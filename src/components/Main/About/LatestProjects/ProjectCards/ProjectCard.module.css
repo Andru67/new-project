@@ -1,5 +1,6 @@
 .background_card_1 {
     background: url("../../../../../assets/img/category/category-img-2.png");
+
 }
 
 .background_card_2 {
@@ -61,17 +62,16 @@
         margin-top: 20px;
         height: 160px;
     }
+
     .card_linK {
         display: flex;
+        font-weight: 800;
+        margin-top: auto;
+        align-items: center;
+        gap: 10px;
     }
 
 }
 
-.card_linK {
-    display: flex;
-    font-weight: 800;
-    margin-top: auto;
-    align-items: center;
-    gap: 10px;
-}
+
 
