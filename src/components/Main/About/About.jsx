@@ -1,5 +1,4 @@
 import React from 'react';
-import st from './about.module.css'
 import AboutHeader from "./AboutHeader/AboutHeader";
 import {LatestProjects} from "./LatestProjects/LatestProjects";
 import ContactUs from "../../ContactUs/ContactUs";

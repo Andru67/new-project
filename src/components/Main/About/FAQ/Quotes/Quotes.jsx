@@ -74,11 +74,9 @@ const items = [
 ]
 export const Quotes = ({}) => {
     const [activeIndex, setActiveIndex] = useState(-1) // -1 = null
-    const [turnSing, setTurnSing] = useState(false)
 
     const handleClick = (index) => {
         setActiveIndex((prev) => (prev === index ? -1 : index))
-        setTurnSing(prev => !prev)
     }
 
     return (

@@ -3,7 +3,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import './slicerAboutHeader.css';
-import {Swiper, SwiperSlide, useSwiper} from "swiper/react";
+import {Swiper, SwiperSlide} from "swiper/react";
 import {AboutTitle_01} from "../AboutTitle_01";
 import {AboutTitle_02} from "../AboutTitle_02";
 import {AboutTitle_03} from "../AboutTitle_03";
