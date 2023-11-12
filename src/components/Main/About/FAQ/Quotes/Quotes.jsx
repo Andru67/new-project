@@ -80,27 +80,8 @@ export const Quotes = ({}) => {
         setActiveIndex((prev) => (prev === index ? -1 : index))
         setTurnSing(prev => !prev)
     }
-    console.log(turnSing)
-    /*
-
-    export const Quotes = ({label, text, id}) => {
-        const [showText, setShowText] = useState(false)
-        const [turnSing, setTurnSing] = useState(false)
-        // const [id, setId] = useState(0)
-
-        const handleClick = () => {
-            setShowText(prev => !prev)
-            setTurnSing(prev => !prev)
-        }
-        const contentClassName = cn(st.text, {[st.showText]: showText})
-        const contentClassName2 = cn(st.sing, {[st.turnSing]: turnSing})
-        console.log(showText)
-        // console.log(turnSing)
-        console.log(id)
-    */
 
     return (
-
         <div>
             {items.map((item, index) => (
                 <div className={st.wrapper} key={index}>
@@ -117,8 +98,6 @@ export const Quotes = ({}) => {
                     {activeIndex === index && <div className={st.text}>{item.text}</div>}
                 </div>
             ))}
-
         </div>
-
     );
 }

@@ -9,12 +9,14 @@ import {Advertisement} from "./Advertisement/Advertisement";
 import {WorkingStaff} from "./WorkingStaff/WorkingStaff";
 import {FAQ} from "./FAQ/FAQ";
 import {UsefulArticles} from "./UsefulArticles/UsefulArticles";
+import {NewLatestProjects} from "./NewLatestProjectsMAP/NewLatestProjects";
 
 const About = () => {
     return (
         <div>
             <AboutHeader/>
             <LatestProjects/>
+                <NewLatestProjects/>
             <OurExpertise/>
             <VideoPlayer/>
             <Advertisement/>

@@ -2,7 +2,6 @@ import React from 'react';
 import st from './aboutHeader.module.css';
 import BookConsultation from "../../../Header/BookConsultition/BookConsultation";
 import {ReactComponent as Sing} from "../../../../assets/img/Arrow.svg";
-import {useSwiper} from "swiper/react";
 
 export const AboutTitle_01 = ({}) => {
 

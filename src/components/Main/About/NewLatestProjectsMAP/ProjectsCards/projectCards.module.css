@@ -1,0 +1,56 @@
+
+.hovering {
+    :hover {
+        .background {
+            display: revert;
+        }
+    }
+}
+
+.card {
+    font-family: Gilroy, sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    position: relative;
+    height: 400px;
+    width: 330px;
+}
+
+.picture {
+    height: 100%;
+    width: 100%;
+}
+
+.category {
+    color: #ffffff;
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+}
+
+.background {
+    display: none;
+    /*width: initial;*/
+    height: 320px;
+    background: #FCD54C;
+    position: absolute;
+    top: 0;
+    color: black;
+    padding: 40px 20px;
+}
+
+.text {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 80px;
+}
+
+.link {
+    position: absolute;
+    font-size: 16px;
+    bottom: 30px;
+
+}

@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-import {Controller, Keyboard, Navigation, Pagination} from "swiper/modules";
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
@@ -23,8 +22,6 @@ export const SlicerAboutHeader = ({}) => {
         setIsEnd(swiper.isEnd);
     };
 
-
-    console.log()
 
     return (
         <Swiper onSlideChange={handleSlideChange}

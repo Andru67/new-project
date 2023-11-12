@@ -1,7 +1,6 @@
-import React, {useState} from 'react';
+import React from 'react';
 import st from './ProjectCard.module.css';
 import cn from "classnames";
-import {ReactComponent as Singh} from "../../../../../assets/img/Arrow.svg";
 import {ProjectCards} from "./ProjectCards";
 
 export const ProjectCard_4 = ({}) => {
