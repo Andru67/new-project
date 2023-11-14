@@ -1,6 +1,6 @@
 .wrap {
     height: auto;
-    border: 3px solid #FCD54C;
+    /*border: 3px solid #FCD54C;*/
 }
 
 .title {
@@ -28,6 +28,10 @@
     font-weight: 600;
     font-size: 14px;
     line-height: 20px;
+
+}
+.btn {
+    cursor: pointer;
 }
 
 .show_view {

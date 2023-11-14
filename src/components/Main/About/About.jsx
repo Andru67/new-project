@@ -14,7 +14,7 @@ const About = () => {
     return (
         <div>
             <AboutHeader/>
-            <LatestProjects/>
+            {/*<LatestProjects/>*/}
                 <NewLatestProjects/>
             <OurExpertise/>
             <VideoPlayer/>

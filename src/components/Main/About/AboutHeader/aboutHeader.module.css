@@ -5,6 +5,7 @@
     background: url(../../../../assets/img/slider1.png) no-repeat center;
     background-size: cover;
     color: #ffffff;
+    margin-bottom: 100px;
     /*
     !*наложение допщлнительного цвета на картинку*!
     background-blend-mode: overlay;

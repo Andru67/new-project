@@ -11,7 +11,8 @@ export const UsefulArticles = ({}) => {
         <div className={st.wrapper}>
             <div className={st.block_title}>
                 <div className={st.title}>UsefulArticles</div>
-                <div className={st.link}>View all articles <Sing/></div>
+                {/*<div className={st.link}>View all articles <Sing/></div>*/}
+                <MoreLink text='View all articles' className={st.link}/>
             </div>
             <div className={st.block_information}>
                 <div className={cn(st.img, st.picture1)}>
