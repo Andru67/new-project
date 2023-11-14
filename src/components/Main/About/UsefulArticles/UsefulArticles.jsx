@@ -1,6 +1,5 @@
 import React from 'react';
 import st from './usefulArticles.module.css';
-import {ReactComponent as Sing} from './../../../../assets/img/Arrow.svg';
 import {MoreLink} from "../../../commons/MoreLink/MoreLink";
 import cn from "classnames";
 

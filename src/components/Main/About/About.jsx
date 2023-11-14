@@ -1,6 +1,5 @@
 import React from 'react';
 import AboutHeader from "./AboutHeader/AboutHeader";
-import {LatestProjects} from "./LatestProjects/LatestProjects";
 import ContactUs from "../../ContactUs/ContactUs";
 import {OurExpertise} from "./OurExpertise/OurExpertise";
 import {VideoPlayer} from "./VideoPlayer/VideoPlayer";

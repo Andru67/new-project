@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import {MoreLink} from "../../../../commons/MoreLink/MoreLink";
 import st from './projectCards.module.css';
 import picture_1 from "./../../../../../assets/img/category/category-img-2.png";
