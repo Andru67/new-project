@@ -4,7 +4,6 @@ import {ReactComponent as Sign} from './../../../../../assets/img/Arrow.svg';
 import cn from "classnames";
 
 
-// const Quotes = [
 const items = [
     {
         index: 1,

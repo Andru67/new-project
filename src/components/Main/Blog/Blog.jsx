@@ -1,11 +1,15 @@
-import React, {Component} from 'react';
+import React from 'react';
 import st from './blog.module.css'
 import {ReactComponent as Search} from '../../../assets/img/search.svg';
-import LearnMore from "./LearnMore";
 import Blogs from "./Blogs";
+
 
 const Blog = () => {
 
+
+const showInput = (event) => {
+    console.log(event.target.value)
+}
     return (
         <div>
             <div className={st.title_blog}>
@@ -16,7 +20,7 @@ const Blog = () => {
                 <div>
                     <form className={st.form}>
                         <div>
-                            <input className={st.search} placeholder='search...'/>
+                            <input type='text' className={st.search} placeholder='search...' onChange={showInput} />
                         </div>
 
                         <div className={st.submit}>

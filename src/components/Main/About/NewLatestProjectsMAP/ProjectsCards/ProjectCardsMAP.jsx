@@ -74,7 +74,6 @@ export const ProjectCardsMAP = ({category}) => {
         }
         return it.category === category
     })*/
-
     const filterItems = items.filter(it => category === 'all' || it.category === category)
 
 
